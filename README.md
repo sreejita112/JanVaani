@@ -42,7 +42,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/JanVaani.git
+git clone https://github.com/sreejita112/JanVaani.git
 cd JanVaani
 ```
 
