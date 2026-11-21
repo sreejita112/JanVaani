@@ -1,0 +1,242 @@
+[
+    {
+        "text": "No doctor at Birch Hospital for two weeks. Pregnant women suffer.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Health",
+        "expected_subcategory": "Doctor availability",
+        "expected_priority": "P1"
+    },
+    {
+        "text": "Please add more street lights in sector 12.",
+        "expected_intent": "Suggestion",
+        "expected_sentiment": "Neutral",
+        "expected_sector": "Transport",
+        "expected_subcategory": "Street lighting",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "The staff at City Hospital saved my father's life. Thank you!",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "Health",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "Potholes on Main Road causing accidents.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Transport",
+        "expected_subcategory": "Road condition",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "Garbage not collected for 2 weeks, foul smell everywhere.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Sanitation",
+        "expected_subcategory": "Garbage collection",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "I suggest adding more EV charging stations in the city.",
+        "expected_intent": "Suggestion",
+        "expected_sentiment": "Neutral",
+        "expected_sector": "Transport",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "Electricity outage for 6 hours, no update from utility.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Electricity",
+        "expected_subcategory": "Power outage",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "The teacher at Maple School is very helpful. Thank you!",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "Education",
+        "expected_subcategory": "Teacher attendance",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "School textbooks not delivered for Grade 5 students.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Education",
+        "expected_subcategory": "Textbooks",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "Dangerous building collapsing on Oak Street. Emergency!",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Infrastructure",
+        "expected_subcategory": "General",
+        "expected_priority": "P0"
+    },
+    {
+        "text": "Police not responding to burglary calls in our area.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "PublicSafety",
+        "expected_subcategory": "Police response",
+        "expected_priority": "P1"
+    },
+    {
+        "text": "Water supply has been irregular for 3 days.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Water",
+        "expected_subcategory": "Supply disruption",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "The new park in sector 5 is beautiful. Well done.",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "Infrastructure",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "Maybe the bus frequency could be increased on route 7.",
+        "expected_intent": "Suggestion",
+        "expected_sentiment": "Neutral",
+        "expected_sector": "Transport",
+        "expected_subcategory": "Public bus",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "I love the new online complaint system. Very easy to use!",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "General",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "The hospital emergency room was very slow and unhelpful.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Health",
+        "expected_subcategory": "Doctor availability",
+        "expected_priority": "P1"
+    },
+    {
+        "text": "Roads are bad.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Transport",
+        "expected_subcategory": "Road condition",
+        "expected_priority": "P3"
+    },
+    {
+        "text": "Thank you for fixing the water leak quickly.",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "Water",
+        "expected_subcategory": "Pipeline leakage",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "We need a new community centre near sector 8.",
+        "expected_intent": "Suggestion",
+        "expected_sentiment": "Neutral",
+        "expected_sector": "Infrastructure",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "No clean drinking water in school. Children getting sick.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Water",
+        "expected_subcategory": "Quality",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "The electricity bill is too high – wrong calculation.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Electricity",
+        "expected_subcategory": "Bill issues",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "Ambulance arrived within 10 minutes. Great job!",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "Health",
+        "expected_subcategory": "Ambulance",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "The public toilet near bus stand is filthy.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Sanitation",
+        "expected_subcategory": "Public toilet",
+        "expected_priority": "P2"
+    },
+    {
+        "text": "I suggest extending the park hours on weekends.",
+        "expected_intent": "Suggestion",
+        "expected_sentiment": "Neutral",
+        "expected_sector": "Infrastructure",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "The police officer was very respectful and helpful.",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "PublicSafety",
+        "expected_subcategory": "Police response",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "No street lights on sector 3 road. Very dangerous at night.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Transport",
+        "expected_subcategory": "Street lighting",
+        "expected_priority": "P1"
+    },
+    {
+        "text": "The school building has cracked walls. Unsafe for children.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Education",
+        "expected_subcategory": "Infrastructure",
+        "expected_priority": "P1"
+    },
+    {
+        "text": "Water quality testing should be done more often.",
+        "expected_intent": "Suggestion",
+        "expected_sentiment": "Neutral",
+        "expected_sector": "Water",
+        "expected_subcategory": "Quality",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "The electricity workers fixed the pole in record time. Kudos!",
+        "expected_intent": "Appreciation",
+        "expected_sentiment": "Positive",
+        "expected_sector": "Electricity",
+        "expected_subcategory": "General",
+        "expected_priority": "P4"
+    },
+    {
+        "text": "Garbage trucks come early morning – too noisy.",
+        "expected_intent": "Complaint",
+        "expected_sentiment": "Negative",
+        "expected_sector": "Sanitation",
+        "expected_subcategory": "Garbage collection",
+        "expected_priority": "P3"
+    }
+]
